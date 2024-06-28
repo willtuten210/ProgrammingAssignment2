@@ -5,7 +5,7 @@
 ## I based this function on the mean example given
 ## I altered it to accept take a matrix instead of vector and to use solve instead of mean
 ## Changed m to i, seems more appropriate for solving the inverse
-makeCacheMatrix <- function(x = matrix(sample(1:100,9),3,3)) {
+makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
   set <- function(y) {
     x <<- y
